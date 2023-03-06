@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Space+Grotesk:wght@300;400;500;600&display=swap");
+/* font-family: 'Pacifico', cursive;
+font-family: 'Space Grotesk', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #fef1f1;
+  color: #fb6970;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 5%;
+  padding: 1% 5%;
+  list-style: none;
+}
+li{
+  margin: 0 10px;
+}
+li.hover{
+  color: #fc0f1b;
+}
+
+/* Intoduction */
+
+.introduction {
+  color: #fb6970;
+  text-align: center;
+  margin-top: 13%;
+  margin-bottom: 18%;
+  font-size: 30px;
+}
+
+.intro-paragraph{
+  margin: 0 5%;
+}
+/* SKILLS */
+.skills {
+  text-align: center;
+  background-color: #fef1f1;
+  padding: 10%;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+#icons {
+  margin-top: 20px;
+}
+
+.skill-icons {
+  font-size: 4em;
+  padding: 20px;
+}
+
+.skill-text {
+  font-size: 1.3em;
+  word-spacing: 55px;
+  margin-top: 20px;
+}
+
+
+/* Projects */
+.pro-heading{
+  text-align: center;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7%;
+}
+
+.pro-text {
+  width: 90%;
+  height: 90%;
+}
+.pro-image {
+  width: 90%;
+  height: 90%;
+}
+
+.pro-img {
+  width: 100%;
+}
+
+/* Contact form */
+#contact {
+  padding: 2% 5%;
+  margin: 15% 10%;
+}
+
+.contact-form {
+  padding: 2% 5%;
+  margin: 2%;
+  background-color: #fef1f1;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.input {
+  margin: 8px;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+}
+textarea {
+  margin: 10px;
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.contact-info {
+  column-count: 2;
+}
+
+.labels {
+  margin-left: 8px;
+}
+
+.btn {
+  text-align: center;
+}
+#contact-button {
+  width: 20%;
+  height: 3em;
+  background-color: #fb6970;
+  color: #fef1f1;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fb6970;
+  color: #fef1f1;
+  padding: 4%;
+  text-align: center;
+}
+
+/* Transition */
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
