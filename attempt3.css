@@ -50,7 +50,7 @@ li.hover{
 .skills {
   text-align: center;
   background-color: #fef1f1;
-  padding: 10%;
+  padding:7% 10%;
 }
 
 h1 {
@@ -75,6 +75,7 @@ h1 {
 
 /* Projects */
 .pro-heading{
+  margin-top: 5%;
   text-align: center;
 }
 
